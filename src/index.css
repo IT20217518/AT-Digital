@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.hero-section {
+  background-image: url("./assets/images/hero.png");
+  height: 90vh;
+}
+
+.bg-primary {
+  background: #6B3CC9;
+}
+
+.hero-gradian {
+  background: linear-gradient(257deg, #1CBDDD 27.86%, #4DCA79 100%), #FFF;
+  display: flex;
+  max-width: 730px;
+  padding: 24px 40px 32px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  color: white;
+  font-family: Inter;
+  font-size: 2rem;
+  margin-left: 20px;
+  margin-top: 20vh;
+}
+
+.hero-button-div {
+  display: flex;
+  padding: 12px 20px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 4px;
+  background: #F28D35;
+}
+
+.hero-button {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  /* 14px */
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+}
+.rtl-mobile-button{
+  display: flex;
+  padding: 12px 20px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 4px;
+  background: #F28D35;
+}
